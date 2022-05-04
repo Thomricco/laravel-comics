@@ -1,0 +1,41 @@
+
+.container-harder-main {
+    background-color: rgb(41, 105, 224);
+
+    .box-harder-main {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        
+        justify-content: space-between;
+        justify-content: center;
+
+        .box-logo-harder-main {
+            height: 150px;
+
+            .img-box-harder-main {
+                height: 50px;
+                margin-top: 45px;
+                display: flex;
+                padding: 7px;
+                
+                .img-harder-main {
+                    height: 50px;
+                    margin-left: 15px;
+                    padding: 10px;
+                    
+
+                }
+
+                .span-harder-main {
+                    font-size: 10px;
+                    color: #fff;
+                    line-height: 50px;
+                    margin-right: 20px;
+                }
+            
+            }
+        }
+    }
+
+}
