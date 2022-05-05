@@ -17,3 +17,14 @@ Route::get('/', function () {
     $data = config("comics");
     return view('home', compact("data"));
 })->name("home");
+
+Route::get('/comics/{index}', function ($index) {
+    $data = config("comics");
+    if(is_numeric($index) && $index >= 0 && $index < count($data)){
+        $comic = $data[$index];
+        return view('comic', compact("comic"));
+    } else {
+        abort(404);
+    }
+})->name("comics");
+

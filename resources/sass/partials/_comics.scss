@@ -1,0 +1,90 @@
+.container-immagini-box-comics {
+    height: 650px;
+    background-color: #fff;
+    
+    .box-immagini-box-comics {
+        width: 1000px;
+        height: 600px;
+        margin: 0 auto;
+        //border: 1px #fff solid;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .button-immagini-box {
+            position: absolute;
+            top: -25px;
+            width: 1280px;
+            height: 40px;
+            color: #fff;
+            background-color: rgb(41, 105, 224);
+            text-align: center;
+            line-height: 40px;
+        }
+        .button-two-immagini-box {
+            position: absolute;
+            bottom: 1px;
+            width: 170px;
+            height: 40px;
+            color: #fff;
+            background-color: rgb(41, 105, 224);
+            text-align: center;
+            line-height: 40px;
+        }
+        .immagine-immagini-box-comics {
+            width: 150px;
+            height: 220px;
+            position: absolute;
+            top: -220px;
+            left: 150px;
+
+        }
+        .info-box {
+            
+            width: 600px;
+            
+            
+            
+            .title-h2 {
+                color: rgb(50, 50, 50);
+            }
+            .green-box {
+                margin-top: 10px;
+                height: 40px;
+                display: flex;
+                background-color: rgb(91, 194, 91);
+                .green-box-left {
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    width: 60%;
+                    color: rgb(153, 237, 153);
+                }
+
+                .green-box-center {
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    width: 15%;
+                    color: rgb(153, 237, 153);
+                }
+
+                .green-box-right {
+                    padding-top: 10px;
+                    width: 25%;
+                    text-align: center;
+                    border-left: 1px rgb(36, 36, 36) solid;
+                    color: #fff;
+                }
+            }
+
+            .descrizione {
+                margin-top: 10px;
+                color: grey;
+            }
+
+
+        }
+        
+    }
+}
