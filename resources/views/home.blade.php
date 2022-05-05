@@ -11,7 +11,7 @@
             <div class="box-immagini-immagini-box">
                 
                 <img class="immagine-immagini-box" src="{{ $fumetto["thumb"] }}" alt="">
-                <div class="text-immagini-box">{{ $fumetto["series"] }}</div>
+                <div class="text-immagini-box"> <a class="a-comic" href="">{{ $fumetto["series"] }}</a></div>
                 
             </div>
             @endforeach

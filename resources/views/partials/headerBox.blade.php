@@ -9,7 +9,7 @@
                     <a class="a-header-box" href="#">CHARACTERS</a>
                 </li> 
                 <li  class="li-header-box">
-                    <a class="a-header-box" href="#">COMICS</a>
+                    <a class="a-header-box" href="{{route ('home')}}">COMICS</a>
                 </li>
                 <li class="li-header-box">
                     <a class="a-header-box" href="#">MOVIES</a>
