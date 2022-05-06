@@ -7,11 +7,11 @@
 
         <div class="box-immagini-box">
             <div class="button-immagini-box">CURRENT SERIES</div>
-            @foreach($data as $fumetto)
+            @foreach($data as $index => $fumetto)
             <div class="box-immagini-immagini-box">
                 
                 <img class="immagine-immagini-box" src="{{ $fumetto["thumb"] }}" alt="">
-                <div class="text-immagini-box"> <a class="a-comic" href="">{{ $fumetto["series"] }}</a></div>
+                <div class="text-immagini-box"> <a class="a-comic" href="{{ route("comics", ['index' => $index]) }}">{{ $fumetto["series"] }}</a></div>
                 
             </div>
             @endforeach

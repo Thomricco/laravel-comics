@@ -21,8 +21,8 @@ Route::get('/', function () {
 Route::get('/comics/{index}', function ($index) {
     $data = config("comics");
     if(is_numeric($index) && $index >= 0 && $index < count($data)){
-        $comic = $data[$index];
-        return view('comic', compact("comic"));
+       ;
+        return view('comic',  ["comic" => $data[$index]]);
     } else {
         abort(404);
     }

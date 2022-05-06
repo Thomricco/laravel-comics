@@ -13,46 +13,38 @@ footer {
   background: url("/img/footer-bg.jpg") no-repeat;
   background-size: cover;
 }
-
 footer .box-footer {
   margin: auto 0;
   width: 1200px;
   display: flex;
 }
-
 footer .box-footer .nav-left-footer {
   width: 60%;
   display: flex;
   justify-content: center;
   padding-right: 30px;
 }
-
 footer .box-footer .nav-left-footer .box-1-footer {
   margin-left: 70px;
   margin-top: 10px;
 }
-
 footer .box-footer .nav-left-footer .box-1-footer .title-footer {
   color: #fff;
   margin-top: 20px;
   margin-bottom: 12px;
 }
-
 footer .box-footer .nav-left-footer .box-1-footer .ul-footer {
   list-style: none;
 }
-
 footer .box-footer .nav-left-footer .box-1-footer .ul-footer .li-footer {
   color: #777;
   font-size: 10px;
   padding: 3px;
 }
-
 footer .box-footer .nav-right-footer {
   width: 40%;
   padding-left: 100px;
 }
-
 footer .box-footer .nav-right-footer .img-footer {
   width: 300px;
   padding-bottom: 100px;
@@ -62,20 +54,17 @@ header {
   height: 70px;
   background-color: #333;
 }
-
 header .container-header-footer-box {
   width: 1200px;
   margin: 0 auto;
   display: flex;
 }
-
 header .container-header-footer-box .bottone-header-footer-box {
   width: 40%;
   display: flex;
   justify-content: center;
   padding-right: 50px;
 }
-
 header .container-header-footer-box .bottone-header-footer-box .sing-up-header-footer-box {
   margin-top: 15px;
   text-align: center;
@@ -85,7 +74,6 @@ header .container-header-footer-box .bottone-header-footer-box .sing-up-header-f
   border: 2px rgb(41, 105, 224) solid;
   color: #fff;
 }
-
 header .container-header-footer-box .nav-header-footer-box {
   width: 60%;
   display: flex;
@@ -93,14 +81,12 @@ header .container-header-footer-box .nav-header-footer-box {
   align-items: center;
   padding-left: 150px;
 }
-
 header .container-header-footer-box .nav-header-footer-box .follow-header-footer-box {
   margin-top: 5px;
   color: rgb(41, 105, 224);
   line-height: 70px;
   margin-right: 20px;
 }
-
 header .container-header-footer-box .nav-header-footer-box .img-header-footer-box {
   height: 25px;
   line-height: 70px;
@@ -110,7 +96,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
 .container-harder-main {
   background-color: rgb(41, 105, 224);
 }
-
 .container-harder-main .box-harder-main {
   width: 1200px;
   margin: 0 auto;
@@ -118,24 +103,20 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   justify-content: space-between;
   justify-content: center;
 }
-
 .container-harder-main .box-harder-main .box-logo-harder-main {
   height: 150px;
 }
-
 .container-harder-main .box-harder-main .box-logo-harder-main .img-box-harder-main {
   height: 50px;
   margin-top: 45px;
   display: flex;
   padding: 7px;
 }
-
 .container-harder-main .box-harder-main .box-logo-harder-main .img-box-harder-main .img-harder-main {
   height: 50px;
   margin-left: 15px;
   padding: 10px;
 }
-
 .container-harder-main .box-harder-main .box-logo-harder-main .img-box-harder-main .span-harder-main {
   font-size: 10px;
   color: #fff;
@@ -147,7 +128,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   height: 650px;
   background-color: #333;
 }
-
 .container-immagini-box .box-immagini-box {
   width: 1000px;
   height: 600px;
@@ -159,7 +139,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   align-items: center;
   flex-wrap: wrap;
 }
-
 .container-immagini-box .box-immagini-box .button-immagini-box {
   position: absolute;
   top: -25px;
@@ -171,7 +150,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   text-align: center;
   line-height: 40px;
 }
-
 .container-immagini-box .box-immagini-box .button-two-immagini-box {
   position: absolute;
   bottom: 1px;
@@ -182,16 +160,13 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   text-align: center;
   line-height: 40px;
 }
-
 .container-immagini-box .box-immagini-box .box-immagini-immagini-box {
   margin: 5px;
 }
-
 .container-immagini-box .box-immagini-box .box-immagini-immagini-box .immagine-immagini-box {
   width: 150px;
   height: 150px;
 }
-
 .container-immagini-box .box-immagini-box .box-immagini-immagini-box .text-immagini-box {
   color: #fff;
   font-size: 11px;
@@ -199,7 +174,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   height: 30px;
   margin-top: 5px;
 }
-
 .container-immagini-box .box-immagini-box .box-immagini-immagini-box .text-immagini-box .a-comic {
   text-decoration: none;
   color: #fff;
@@ -215,31 +189,26 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   height: 70px;
   background-color: white;
 }
-
 .container-header-box .container-header-box-two {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-
 .container-header-box .container-header-box-two .logo-header-box {
   width: 40%;
   display: flex;
   justify-content: center;
   padding-right: 150px;
 }
-
 .container-header-box .container-header-box-two .logo-header-box .img-header-box {
   margin-top: 10px;
   height: 50px;
 }
-
 .container-header-box .container-header-box-two .nav-header-box {
   width: 60%;
   padding-right: 200px;
 }
-
 .container-header-box .container-header-box-two .nav-header-box .ul-header-box {
   list-style: none;
   display: flex;
@@ -247,19 +216,16 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   justify-content: center;
   line-height: 50px;
 }
-
 .container-header-box .container-header-box-two .nav-header-box .ul-header-box .li-header-box {
   font-size: 12px;
   padding: 10px;
   cursor: pointer;
 }
-
 .container-header-box .container-header-box-two .nav-header-box .ul-header-box .li-header-box:hover {
   color: rgb(41, 105, 224);
   padding-bottom: 7px;
   border-bottom: 2px rgb(41, 105, 224) solid;
 }
-
 .container-header-box .container-header-box-two .nav-header-box .ul-header-box .li-header-box .a-header-box {
   text-decoration: none;
   color: #333;
@@ -269,7 +235,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   height: 500px;
   background-color: #fff;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics {
   width: 1000px;
   height: 500px;
@@ -281,7 +246,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   align-items: center;
   flex-wrap: wrap;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .button-immagini-box {
   position: absolute;
   top: -25px;
@@ -292,7 +256,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   text-align: center;
   line-height: 40px;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .button-two-immagini-box {
   position: absolute;
   bottom: 1px;
@@ -303,7 +266,6 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   text-align: center;
   line-height: 40px;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .immagine-immagini-box-comics {
   width: 150px;
   height: 220px;
@@ -311,16 +273,13 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   top: -220px;
   left: 150px;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box {
   width: 600px;
   margin-right: 30px;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .title-h2 {
   color: rgb(50, 50, 50);
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .green-box {
   margin-right: 30px;
   margin-top: 10px;
@@ -328,21 +287,18 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   display: flex;
   background-color: rgb(91, 194, 91);
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .green-box .green-box-left {
   padding-left: 12px;
   padding-top: 12px;
   width: 60%;
   color: rgb(153, 237, 153);
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .green-box .green-box-center {
   padding-right: 12px;
   padding-top: 12px;
   width: 15%;
   color: rgb(153, 237, 153);
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .green-box .green-box-right {
   padding-top: 12px;
   width: 25%;
@@ -350,10 +306,8 @@ header .container-header-footer-box .nav-header-footer-box .img-header-footer-bo
   border-left: 1px rgb(36, 36, 36) solid;
   color: #fff;
 }
-
 .container-immagini-box-comics .box-immagini-box-comics .info-box .descrizione {
   margin-top: 12px;
   margin-right: 30px;
   color: grey;
 }
-
